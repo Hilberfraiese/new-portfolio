@@ -1,0 +1,52 @@
+:root
+{
+  --yellow: #ff0ec3;
+    --orange : #ff0080;
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 69, 167, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+.App{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--black);    
+}
+
+.button{
+  border-radius: 34px;
+  border:none;
+  color: white;
+  font-size: 15px;
+  padding: 9px 26px 11px 26px;
+  background: linear-gradient(180deg, #ff0ec3 26.71%, #ff0080 99.36%);
+  box-shadow: 0px 20px 24px 3px rgba(251, 94, 176, 0.42);
+  transition-delay: 0.2s;
+  transition: 0.5s;
+}
+
+.button:hover{
+  background:white;
+  cursor: pointer;
+  color: var(--orange);
+  border: 1px solid var(--orange);
+  font-size: 15px;
+  padding: 9px 26px 11px 26px;
+  transition-delay: 0.2s;
+  transition: 0.5s;
+
+}
+
+@media screen and (max-width: 480px) {
+  .App {
+    padding: 0.5rem 1rem;
+  }
+}
+
+  
+
+  
